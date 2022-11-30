@@ -29,6 +29,9 @@ h1,h3,p, .card-header .btn{
   color: #5e6409;
   
 }
+.card-header .btn:hover{
+color:#c74126
+}
 hr{
   height:2px;
   background-color: #c74126;
