@@ -25,7 +25,7 @@ nav{
 .btn, .welcome a,.dishes .btn,.dish .btn, .carousel-item a{
   background-color: #a6b739;
 }
-h1,h3,p{
+h1,h3,p, .card-header .btn{
   color: #5e6409;
   
 }
