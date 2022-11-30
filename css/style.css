@@ -4,9 +4,7 @@
  font-family: "Helvetica ", cursive;
    
 }
-html{
-  scroll-behavior: smooth;
-}
+
 .container-fluid{
   max-width: 100%;
   position:relative
@@ -27,7 +25,9 @@ nav{
 }
 h1,h3,p, .card-header .btn{
   color: #5e6409;
-  
+ }
+.sh:hover{
+  text-shadow:   2px 2px 3px black, 0 0 25px white, 0 0 5px #dfd8b1;
 }
 .card-header .btn:hover{
 color:#c74126
