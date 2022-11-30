@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+ font-family: "Helvetica ", cursive;
+   
+}
+html{
+  scroll-behavior: smooth;
+}
+.container-fluid{
+  max-width: 100%;
+  position:relative
+}
+.carousel{
+  position:absolute;
+  top:65px;
+  width: 100%;
+}
+nav{
+  position: absolute;
+  background-color: #5e6409;
+  opacity:0.7;
+  z-index:3
+}
+.btn, .welcome a,.dishes .btn,.dish .btn, .carousel-item a{
+  background-color: #a6b739;
+}
+h1,h3,p{
+  color: #5e6409;
+  
+}
+hr{
+  height:2px;
+  background-color: #c74126;
+}
+.section3{
+  font-size: 20px;
+  color:#dfd8b1
+}
+.body h2, .chef h2{
+  color:#a6b739
+}
+ i{
+  font-size: 30px;
+ }
+a.btn:hover
+ {
+  color: #5e6409;
+  background-color: #dfd8b1;
+  border-color: #c74126;
+}
+.content,.dish{
+  background-color:#dfd8b1 ;
+}
+ .g,footer{
+  background-color: #5e6409;
+}
+
+.carousel-caption, i{
+  color:#5e6409
+}
+.test{
+  width:100%;
+  height: 50vh;
+  background: linear-gradient(-70deg, #c74126 40%, rgba(0, 0, 0, 0) 30%), url('../images/7.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color:#dfd8b1
+}
+.s{
+  width:100%;
+  height: 50vh;
+  background: linear-gradient(-70deg, #c74126 30%, #dfd8b1 30%);
+
+}
+.m{
+ color:#fa7c30
+}
+.pic{
+  height: 50vh;
+  width: 100%;
+  background: url(../images/14.jpg);
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.carousel-inner img {
+  width: 100%;
+  }
+ 
